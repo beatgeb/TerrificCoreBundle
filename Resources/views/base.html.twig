@@ -18,7 +18,8 @@
         {% endstylesheets %}
     {% endblock %}
 </head>
-<body{% if body_class is defined %} class="{% block body_class %}{% endblock %}"{% endif %}>
+{% set _body_class = block('body_class') %}
+<body {% if _body_class is not empty %} class="{% block body_class %}{% endblock %}"{% endif %}>
     {# the content goes here #}
     {% block composition %}{% endblock %}
 
