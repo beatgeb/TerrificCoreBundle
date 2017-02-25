@@ -14,7 +14,6 @@ namespace Terrific\CoreBundle\Filter;
 use Assetic\Filter\BaseCssFilter;
 use Assetic\Asset\AssetInterface;
 use Assetic\Filter\FilterInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Fixes CSS urls for Terrific Resources.

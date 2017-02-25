@@ -14,7 +14,6 @@ namespace Terrific\CoreBundle\Twig\Extension;
 use Symfony\Component\HttpKernel\KernelInterface;
 use Twig_Test_Method;
 use Twig_Filter_Method;
-use Symfony\Component\Finder\Finder;
 
 class TerrificCoreExtension extends \Twig_Extension
 {
