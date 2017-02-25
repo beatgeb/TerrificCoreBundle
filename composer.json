@@ -1,5 +1,5 @@
 {
-    "name": "brunschgi/terrific-core-bundle",
+    "name": "beatgeb/terrific-core-bundle",
     "description": "Enables development of frontends based on the terrific concept",
     "keywords": ["frontend", "terrific"],
     "type": "symfony-bundle",
